@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: Ignore build directory
+/dist/
+/build/
+
+# Optional: Ignore editor settings
+.vscode/
+.idea/
+
+# Optional: Ignore coverage directory
+coverage/
