@@ -47,6 +47,13 @@ cron.schedule('*/10 * * * *', async () => {
   }
 });
 
+app.get('/', (req, res) => {
+    return res.json({
+        success: true,
+        message: 'Your server is up and running',
+    })
+});
+
 // Start the server
 app.listen(config.PORT, () => {
   console.log(`Server running on port ${config.PORT}`);
